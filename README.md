@@ -11,8 +11,9 @@ Classification can be performed on structured or unstructured data. Classificati
 
 4.Logistic Regression
 
+5.Decision Tree Classifier
 
-
+6.Naive Bayes
 
 ## Overview to the Algorithms:
 ### Support Vector Machine:
@@ -26,3 +27,9 @@ A random forest consists of multiple random decision trees. Two types of randomn
 
 ### Logistic regression:
 It’s a classification algorithm, that is used where the response variable is categorical. The idea of Logistic Regression is to find a relationship between features and probability of particular outcome.
+
+### Decision Tree Classifier:
+Decision Trees are a type of Supervised Machine Learning (that is you explain what the input is and what the corresponding output is in the training data) where the data is continuously split according to a certain parameter. The tree can be explained by two entities, namely decision nodes and leaves. The leaves are the decisions or the final outcomes. And the decision nodes are where the data is split.
+
+### Naive Bayes:
+Naive Bayes is a simple, yet effective and commonly-used, machine learning classifier. It is a probabilistic classifier that makes classifications using the Maximum A Posteriori decision rule in a Bayesian setting.Naive Bayes classifiers have been especially popular for text classification, and are a traditional solution for problems such as spam detection.
