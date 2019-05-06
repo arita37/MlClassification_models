@@ -17,6 +17,8 @@ Classification can be performed on structured or unstructured data. Classificati
 
 7.Adaboost Classifier
 
+8.Gradient Boosting
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -38,3 +40,6 @@ Naive Bayes is a simple, yet effective and commonly-used, machine learning class
 
 ### Adaboost Classifier:
 Ada-boost classifier combines weak classifier algorithm to form strong classifier. A single algorithm may classify the objects poorly. But if we combine multiple classifiers with selection of training set at every iteration and assigning right amount of weight in final voting, we can have good accuracy score for overall classifier.
+
+### Gradient Boosting:
+The aim of gradient boosting is to create (or "train") an ensemble of trees, given that we know how to train a single decision tree. This technique is called boosting because we expect an ensemble to work much better than a single estimator.
