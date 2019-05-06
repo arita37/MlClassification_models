@@ -15,6 +15,8 @@ Classification can be performed on structured or unstructured data. Classificati
 
 6.Naive Bayes
 
+7.Adaboost Classifier
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -33,3 +35,6 @@ Decision Trees are a type of Supervised Machine Learning (that is you explain wh
 
 ### Naive Bayes:
 Naive Bayes is a simple, yet effective and commonly-used, machine learning classifier. It is a probabilistic classifier that makes classifications using the Maximum A Posteriori decision rule in a Bayesian setting.Naive Bayes classifiers have been especially popular for text classification, and are a traditional solution for problems such as spam detection.
+
+### Adaboost Classifier:
+Ada-boost classifier combines weak classifier algorithm to form strong classifier. A single algorithm may classify the objects poorly. But if we combine multiple classifiers with selection of training set at every iteration and assigning right amount of weight in final voting, we can have good accuracy score for overall classifier.
