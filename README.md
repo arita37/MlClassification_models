@@ -27,6 +27,8 @@ Classification can be performed on structured or unstructured data. Classificati
 
 12.Perceptron
 
+13.Stochastic Gradient Descent (SGD)
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -63,3 +65,7 @@ The multilayer perceptron (MLP) is a feedforward artificial neural network model
 
 ### Perceptron:
 The most fundamental unit of a deep neural network is called an artificial neuron, which takes an input, processes it, passed it through an activation function like the Sigmoid, return the activated output.
+
+### Stochastic Gradient Descent (SGD):
+Stochastic gradient descent updates the weight parameters after evaluation the cost function after each sample.  That is, rather than summing up the cost function results for all the sample then taking the mean, stochastic gradient descent (or SGD) updates the weights after every training sample is analysed
+
