@@ -19,6 +19,8 @@ Classification can be performed on structured or unstructured data. Classificati
 
 8.Gradient Boosting
 
+9.XGBoost Classifier
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -43,3 +45,6 @@ Ada-boost classifier combines weak classifier algorithm to form strong classifie
 
 ### Gradient Boosting:
 The aim of gradient boosting is to create (or "train") an ensemble of trees, given that we know how to train a single decision tree. This technique is called boosting because we expect an ensemble to work much better than a single estimator.
+
+### XGBoost Classifier:
+In XGBoost, we fit a model on the gradient of loss generated from the previous step. In XGBoost, we just modified our gradient boosting algorithm so that it works with any differentiable loss function.
