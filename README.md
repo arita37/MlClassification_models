@@ -21,6 +21,9 @@ Classification can be performed on structured or unstructured data. Classificati
 
 9.XGBoost Classifier
 
+10.Linear Discriminant Analysis
+¶
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -48,3 +51,10 @@ The aim of gradient boosting is to create (or "train") an ensemble of trees, giv
 
 ### XGBoost Classifier:
 In XGBoost, we fit a model on the gradient of loss generated from the previous step. In XGBoost, we just modified our gradient boosting algorithm so that it works with any differentiable loss function.
+
+### Linear Discriminant Analysis:
+It makes predictions by estimating the probability that a new set of inputs belongs to each class. The class that gets the highest probability is the output class and a prediction is made.
+
+
+¶
+¶
