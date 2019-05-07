@@ -22,7 +22,8 @@ Classification can be performed on structured or unstructured data. Classificati
 9.XGBoost Classifier
 
 10.Linear Discriminant Analysis
-¶
+
+11.¶Multi-Layer Perceptron
 
 ## Overview to the Algorithms:
 ### Support Vector Machine:
@@ -55,6 +56,6 @@ In XGBoost, we fit a model on the gradient of loss generated from the previous s
 ### Linear Discriminant Analysis:
 It makes predictions by estimating the probability that a new set of inputs belongs to each class. The class that gets the highest probability is the output class and a prediction is made.
 
+### Multi-Layer Perceptron:
+The multilayer perceptron (MLP) is a feedforward artificial neural network model that maps sets of input data onto a set of appropriate outputs. An MLP consists of multiple layers and each layer is fully connected to the following one. The nodes of the layers are neurons using nonlinear activation functions, except for the nodes of the input layer. There can be one or more non-linear hidden layers between the input and the output layer. 
 
-¶
-¶
