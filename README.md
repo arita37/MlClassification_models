@@ -23,7 +23,7 @@ Classification can be performed on structured or unstructured data. Classificati
 
 10.Linear Discriminant Analysis
 
-11.¶Multi-Layer Perceptron
+11.Multi-Layer Perceptron
 
 ## Overview to the Algorithms:
 ### Support Vector Machine:
