@@ -25,6 +25,8 @@ Classification can be performed on structured or unstructured data. Classificati
 
 11.Multi-Layer Perceptron
 
+12.Perceptron
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -59,3 +61,5 @@ It makes predictions by estimating the probability that a new set of inputs belo
 ### Multi-Layer Perceptron:
 The multilayer perceptron (MLP) is a feedforward artificial neural network model that maps sets of input data onto a set of appropriate outputs. An MLP consists of multiple layers and each layer is fully connected to the following one. The nodes of the layers are neurons using nonlinear activation functions, except for the nodes of the input layer. There can be one or more non-linear hidden layers between the input and the output layer. 
 
+### Perceptron:
+The most fundamental unit of a deep neural network is called an artificial neuron, which takes an input, processes it, passed it through an activation function like the Sigmoid, return the activated output.
