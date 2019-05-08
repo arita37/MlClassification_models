@@ -29,6 +29,8 @@ Classification can be performed on structured or unstructured data. Classificati
 
 13.Stochastic Gradient Descent (SGD)
 
+14.Quadratic Discriminant Analysis
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -69,3 +71,5 @@ The most fundamental unit of a deep neural network is called an artificial neuro
 ### Stochastic Gradient Descent (SGD):
 Stochastic gradient descent updates the weight parameters after evaluation the cost function after each sample.  That is, rather than summing up the cost function results for all the sample then taking the mean, stochastic gradient descent (or SGD) updates the weights after every training sample is analysed
 
+### Quadratic Discriminant Analysis:
+Quadratic Discriminant Analysis is another machine learning classification technique. Like, LDA, it seeks to estimate some coefficients, plug those coefficients into an equation as means of making predictions. LDA and QDA are actually quite similar. Both assume that the k classes can be drawn from Gaussian Distributions. QDA, again like LDA, uses Baye’s Theorem to estimate the parameters of the equation.
