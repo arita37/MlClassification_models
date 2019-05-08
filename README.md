@@ -31,6 +31,8 @@ Classification can be performed on structured or unstructured data. Classificati
 
 14.Quadratic Discriminant Analysis
 
+15.Bernoulli_naive_Bayes
+
 ## Overview to the Algorithms:
 ### Support Vector Machine:
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
@@ -73,3 +75,7 @@ Stochastic gradient descent updates the weight parameters after evaluation the c
 
 ### Quadratic Discriminant Analysis:
 Quadratic Discriminant Analysis is another machine learning classification technique. Like, LDA, it seeks to estimate some coefficients, plug those coefficients into an equation as means of making predictions. LDA and QDA are actually quite similar. Both assume that the k classes can be drawn from Gaussian Distributions. QDA, again like LDA, uses Baye’s Theorem to estimate the parameters of the equation.
+
+### Bernoulli_naive_Bayes::
+Like MultinomialNB, this classifier is suitable for discrete data. The difference is that while MultinomialNB works with occurrence counts, BernoulliNB is designed for binary/boolean features.
+
